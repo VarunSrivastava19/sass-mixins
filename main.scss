@@ -1,5 +1,5 @@
-//@import "/base/variables";
+@import "./base/variables";
 @import "./base/mixins";
 
-@include themable(theme-1, #f7eb80, #497265, #82aa91, #fff, #bc6a49);
-@include themable(theme-2, #e4ada7, #d88880, #cc6359, #fff, #481b16);
+@include themable(nth($themes, 1), nth($clrs, 1), nth($clrs, 2), nth($clrs, 3), nth($clrs, 4), nth($clrs, 5));
+@include themable(nth($themes, 2), nth($clrs, 6), nth($clrs, 7), nth($clrs, 8), nth($clrs, 9), nth($clrs, 10));

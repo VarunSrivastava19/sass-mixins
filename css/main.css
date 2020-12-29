@@ -30,6 +30,8 @@
     padding: 1em 2em;
     position: absolute;
     right: 10px; }
+  .theme-1 .container .button:hover {
+    background-color: #995439; }
 
 .theme-2 .container {
   background-color: #e4ada7;
@@ -63,3 +65,5 @@
     padding: 1em 2em;
     position: absolute;
     right: 10px; }
+  .theme-2 .container .button:hover {
+    background-color: #210c0a; }
